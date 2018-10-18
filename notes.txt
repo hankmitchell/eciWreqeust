@@ -23,37 +23,3 @@ git commit -m "Initial Commit"
 git push -u origin master
 
 
-
-
-Generating public/private rsa key pair.
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /home/silve312/.ssh/id_rsa.
-Your public key has been saved in /home/silve312/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:niqpkvHC+QiFqlND5WkVMWqHgNk7ROFZpEzhdOU4I5w 
-The key's randomart image is:
-+---[RSA 2048]----+
-| =B++.=o         |
-|oBoB.=..         |
-| .E+Boo          |
-| .+o++           |
-|...o    S        |
-|o.o    . .       |
-|+=.. .  o        |
-|Boo o  .         |
-|.=oo ..          |
-+----[SHA256]-----+
-
-
-
-
-
-
-
-
-
-
-
-
-
