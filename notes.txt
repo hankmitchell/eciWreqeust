@@ -1,0 +1,59 @@
+Use this interface to create new repositories or clone existing remote repositories. To add an existing repository to the list of cPanel-managed repositories, select that repository path when you create the repository. The system will automatically add and configure the repository. In order to clone private repositories, advanced users should preconfigure access. For more information, read our documentation.
+Run these commands on your local computer.
+For an existing project …
+Step 1: Navigate to your repository’s directory:
+
+cd /path/to/your/repo
+Step 2: Configure your local repository to push to the cPanel-hosted repository:
+
+git remote add origin ssh://silve312@silvercrayon.us/home/silve312/public_html/eci-git
+git push -u origin master
+To start a new project …
+Step 1: Clone the cPanel-hosted repository to your local computer and navigate to its directory:
+
+git clone ssh://silve312@silvercrayon.us/home/silve312/public_html/eci-git
+cd eci-git
+Step 2: Create a README file:
+
+echo "# README" >> README.md
+Step 3: Commit the README file to the project:
+
+git add README.md
+git commit -m "Initial Commit"
+git push -u origin master
+
+
+
+
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/silve312/.ssh/id_rsa.
+Your public key has been saved in /home/silve312/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:niqpkvHC+QiFqlND5WkVMWqHgNk7ROFZpEzhdOU4I5w 
+The key's randomart image is:
++---[RSA 2048]----+
+| =B++.=o         |
+|oBoB.=..         |
+| .E+Boo          |
+| .+o++           |
+|...o    S        |
+|o.o    . .       |
+|+=.. .  o        |
+|Boo o  .         |
+|.=oo ..          |
++----[SHA256]-----+
+
+
+
+
+
+
+
+
+
+
+
+
+
