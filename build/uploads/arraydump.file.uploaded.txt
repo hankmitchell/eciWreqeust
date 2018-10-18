@@ -1,0 +1,12 @@
+Array
+(
+    [file] => Array
+        (
+            [name] => day-of-the-dead.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpGY0ky4
+            [error] => 0
+            [size] => 210733
+        )
+
+)

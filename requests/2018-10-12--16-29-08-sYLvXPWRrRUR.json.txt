@@ -1,0 +1,1 @@
+{"fullname":"Hank Mitchell","email":"hank@silvercrayon.com","Q2venue":"Guy Fieri\u2019s Smokehouse (Norfolk)","EmailnewletterSubject-Line1":"welcome to the jungle! \ud83c\udf4c","timestamp":"2018-10-12--16-29-08","requestID":"2018-10-12--16-29-08-sYLvXPWRrRUR","unixtime":1539376148}

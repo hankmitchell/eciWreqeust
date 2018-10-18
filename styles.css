@@ -1,0 +1,125 @@
+
+	  html,
+	  tablr,
+	  td,
+	  tr,
+	  body,
+	  p,
+	  em {
+		  font-family: segoe ui, sans-serif;
+		  font-size: 15px;
+	  }
+	  
+	  #formContainer {
+		  background-image: url(/images/upload-cloud.gif);
+		  background-size: contain;
+		  background-repeat: no-repeat;
+	  }
+	  
+	  .dz-message {
+		  background-image: url(/images/upload-cloud.gif);
+		  background-size: contain;
+		  background-repeat: no-repeat;
+		  height: 90px;
+	  }
+	  
+	 
+	  html {
+		font-family: segoe ui, sans-serif;
+		font-size: 16px;
+		color: #484747;
+	}
+	
+	body {
+		padding: 100px;
+	}
+	
+	input,
+	textarea,
+	button {
+		/*		border: 1px solid #ccc;*/
+		padding: 5px;
+		border-radius: 3px;
+		margin: 3px;
+		color: #484747;
+/*		border: 0px;*/
+		font-size: 15px;
+		border: 1px solid #ccc;
+		font-family: segoe ui, sans-serif;
+	}
+	
+	.hinput {
+		border: 1px solid #ccc;
+		border: 0px solid #ccc;
+		padding: 5px;
+		border-radius: 3px;
+		margin: 3px;
+		color: #484747c2;
+		background: #ddd;
+		font-size: 15px;
+		font-family: sans-serif;
+		cursor: pointer;
+		width: 150px;
+		text-align: center;
+	}
+	
+	input[type=button],
+	input[type=submit],
+	input[type=reset] {
+		cursor: pointer;
+		background: #ddd;
+		background-color: #ddd;
+	}
+	
+	.prepop {
+		opacity: .5;
+		background-color: #333;
+		padding: 8px;
+		border-radius: 4px;
+		margin: 2px;
+		opacity: .5;
+		display: none;
+		color: white;
+		transition: all .2s;
+		max-width: 400px;
+	}
+	
+	.prepop:hover {
+		opacity: 1;
+		transition: all .2s;
+	}
+	
+	a.prepop {
+		text-decoration: none;
+		color: white;
+	}
+	
+	.initialHide {
+		display: none;
+	}
+	
+	textarea {
+		width: 430px;
+	}
+	
+	h1 {
+		font-weight: 100;
+	}
+	
+	.modal {
+		box-sizing: border-box;
+		width: 485px;
+		padding: 40px;
+		color: gray;
+		font-family: Segoe UI, sans-serif;
+		/*		position: absolute;*/
+		/*		top: 120px;*/
+		box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 72px 0px;
+		margin: 12px;
+		font-size: 15px;
+		border-radius: 8px;
+		z-index: 4;
+		z-index: 7;
+		background: white;
+		box-sizing: border-box; 
+	}
